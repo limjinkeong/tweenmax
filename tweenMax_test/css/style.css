@@ -1,0 +1,38 @@
+.box{
+  width: 50px;
+  height: 50px;
+  background-color: #000;
+}
+
+/* 트윈맥스의 .from() 메소드를 사용한다면 최종적으로
+보여지게 되는 박스의 형태를 css로 미리 지정해 주면 됩니다. */
+.box2{
+  width: 50px;
+  height: 50px;
+  background-color: #000;
+  scaleX:0.5;
+  scaleY:0.5;
+}
+
+.box3{
+  width: 50px;
+  height: 50px;
+  background-color: #000;
+}
+
+.btn_start{
+  background-color: #c0b8ff;
+  border: 2px solid #000;
+}
+.btn_pause{
+  background-color: #ffb8b8;
+  border: 2px solid #000;
+}
+.btn_reverse{
+  background-color: #dd89aa;
+  border: 2px solid #000;
+}
+.btn_restart{
+  background-color: #caff77;
+  border: 2px solid #000;
+}
